@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+section.banner {
+    height: 555px;
+    width: 100%;
+    background-image: url('zdjecia/baner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.cytat {
+    height: 405px;
+    width: 100%;
+    background-image: url('zdjecia/cytat.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    line-height: 70pt;
+}
+
+.zdjecie1 {
+    background-image: url('zdjecia/2016.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 370px;
+    display: inline-block;
+}
+
+.zdjecie2 {
+    background-image: url('zdjecia/2017.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 370px;
+    display: inline-block;
+}
+
+.zdjecie3 {
+    background-image: url('zdjecia/2018.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 370px;
+    display: inline-block;
+}
+
+.box {
+    height: 300px;
+    width: 480px;
+    background-color: grey;
+    display: inline-block;
+
